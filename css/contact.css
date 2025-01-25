@@ -1,0 +1,36 @@
+/* Contact page styles */
+.contact-section {
+    background: url("../images/sample_menu_bg.jpg") center/cover fixed;
+    padding: 50px 0;
+    position: relative;
+}
+
+.contact-section .section_inner {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 0 auto;
+}
+
+.contact-table {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+}
+
+.contact-table td {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact-table td:first-child {
+    width: 30%;
+    background: rgba(240, 240, 240, 0.5);
+    font-weight: bold;
+}
+
+.contact-table td:last-child {
+    width: 70%;
+}
+
+.section_title h1 {
+    text-decoration: underline;
+}
